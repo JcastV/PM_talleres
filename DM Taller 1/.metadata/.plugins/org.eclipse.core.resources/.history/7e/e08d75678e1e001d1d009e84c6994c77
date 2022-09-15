@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		
+		int peso = 0;
+		float estatura = 0;
+		
+		System.out.println("Ingrese su peso");
+		Scanner pesoEscaner = new Scanner (System.in); 
+		peso = Integer.parseInt(pesoEscaner.nextLine());
+		
+		System.out.println("Ingrese su estatura en centimetros");
+		Scanner alturaEscaner = new Scanner (System.in); 
+		estatura = Integer.parseInt(alturaEscaner.nextLine());
+		
+		System.out.println("Su peso es : " + peso+" "+"Kg -" + " "+ "Su altura es: "+estatura);
+		
+		float IMC = peso/estatura;
+		
+		System.out.println("Su IMC es : "+IMC);
+	}
+
+}

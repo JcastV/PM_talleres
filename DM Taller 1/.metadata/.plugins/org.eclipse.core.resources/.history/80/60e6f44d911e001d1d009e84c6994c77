@@ -1,0 +1,30 @@
+
+/**
+ * @author estudiante
+ *
+ */
+public class persona {
+	
+	/**
+	 * @param peso
+	 * @param altura
+	 */
+	
+	public persona () {
+		
+	}
+
+	public persona(int peso, int altura) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public float calcularIMC(int peso, int altura) {
+		
+		float IMC = peso/altura;
+		return IMC;
+		
+	}
+	
+	public int peso;
+	public int altura;
+}

@@ -1,0 +1,16 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int calc = 1;
+		while (calc == 0){
+			System.out.print("Calcular su IMC para salir ingrese 0");
+			String entradaTeclado = "";
+			
+	       
+		}
+	}
+
+}

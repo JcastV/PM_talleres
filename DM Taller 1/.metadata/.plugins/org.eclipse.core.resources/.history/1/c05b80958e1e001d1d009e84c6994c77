@@ -1,0 +1,29 @@
+
+/**
+ * @author estudiante
+ *
+ */
+public class persona {
+	
+	/**
+	 * @param peso
+	 * @param estatura
+	 */
+	public persona(int peso, int estatura) {
+		super();
+		this.peso = peso;
+		this.estatura = estatura;
+	}
+
+	public int calcularIMC(int peso, int estarura) {
+		
+		int IMC = 0;
+		
+		IMC = peso / estatura;
+		return IMC;
+		
+	}
+	
+	public int peso;
+	public int estatura;
+}

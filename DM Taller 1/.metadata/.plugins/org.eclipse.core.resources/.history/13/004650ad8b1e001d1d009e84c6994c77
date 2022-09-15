@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		
+		int peso = 0;
+		float estatura = 0;
+		
+		System.out.println("Ingrese su peso");
+		Scanner entradaEscaner = new Scanner (System.in); 
+		peso = Integer.parseInt(entradaEscaner.nextLine());
+	}
+
+}
