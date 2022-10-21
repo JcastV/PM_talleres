@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Login Taller 5</string>
+    <string name="btnLogin">Login</string>
+    <string name="edtEmail">Email</string>
+    <string name="btnRegister">Register</string>
+
+    <string name="Metas">METAS</string>
+    <string name="Visitas">VISITAS</string>
+    <string name="Productividad">PRODUCT</string>
+    <string name="Configuracion">CONFIG</string>
+    <string name="Informacion">INFO</string>
+
+    <string name="desc_Metas">En esta sección encontrará las metas las metas que le fueron asignadas para este mes.</string>
+    <string name="desc_Visitas">En esta sección encontrará cuales han sido los proyectos visitados.</string>
+    <string name="desc_Productividad">En esta sección encontrará el reporte metas vs visitas.</string>
+    <string name="desc_Configuracion">Configuración de la aplicación.</string>
+    <string name="desc_Informacion">Información sobre la aplicación.</string>
+</resources>

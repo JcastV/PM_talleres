@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4648FB"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".DisplayMessageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#5B75FA"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:text="MENU"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <TableLayout
+                android:id="@+id/TableLayoutMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:backgroundTint="#D8C5C5">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="400dp"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/imageView2"
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    app:srcCompat="@drawable/goal" />
+
+                                <TextView
+                                    android:id="@+id/textViewDescMetas"
+                                    android:layout_width="200dp"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_horizontal|center_vertical"
+                                    android:text="@string/desc_Metas"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+                                <Button
+                                    android:id="@+id/btnItem1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center|right"
+                                    android:backgroundTint="#4E9BEF"
+                                    android:rotation="29"
+                                    android:text="@string/Metas"
+                                    android:textColor="@color/white"
+                                    tools:text="@string/Metas" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="400dp"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/imgVMetas"
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:scaleType="fitCenter"
+                                    android:textAlignment="gravity"
+                                    app:srcCompat="@drawable/visitas" />
+
+                                <TextView
+                                    android:id="@+id/textViewDescRevisado"
+                                    android:layout_width="200dp"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_horizontal|center_vertical"
+                                    android:text="@string/desc_Visitas"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+                                <Button
+                                    android:id="@+id/btnMetas"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:backgroundTint="#7CF474"
+                                    android:gravity="center_horizontal|center_vertical"
+                                    android:rotation="29"
+                                    android:text="@string/Visitas"
+                                    android:textColor="@color/white"
+                                    tools:text="@string/Visitas" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="400dp"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/imgVProductividad"
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:scaleType="fitCenter"
+                                    android:textAlignment="gravity"
+                                    app:srcCompat="@drawable/scatter" />
+
+                                <TextView
+                                    android:layout_width="200dp"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_horizontal|center_vertical"
+                                    android:text="@string/desc_Productividad"
+                                    android:textColor="@color/black" />
+
+                                <Button
+                                    android:id="@+id/btnProductividad"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:backgroundTint="#F4748E"
+                                    android:gravity="center_horizontal|center_vertical"
+                                    android:rotation="29"
+                                    android:text="@string/Productividad"
+                                    android:textColor="@color/white"
+                                    tools:text="@string/Productividad" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="400dp"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/imgVConfig"
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:scaleType="fitCenter"
+                                    android:textAlignment="gravity"
+                                    app:srcCompat="@drawable/configuration" />
+
+                                <TextView
+                                    android:layout_width="200dp"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_horizontal|center_vertical"
+                                    android:text="@string/desc_Configuracion"
+                                    android:textColor="@color/black" />
+
+                                <Button
+                                    android:id="@+id/btnConfig"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:backgroundTint="#A1F474"
+                                    android:gravity="center_horizontal|center_vertical"
+                                    android:rotation="29"
+                                    android:text="@string/Configuracion"
+                                    android:textColor="@color/white"
+                                    tools:text="@string/Configuracion" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="400dp"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/imgVInfo"
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:scaleType="fitCenter"
+                                    android:textAlignment="gravity"
+                                    app:srcCompat="@drawable/informacion" />
+
+                                <TextView
+                                    android:layout_width="200dp"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_horizontal|center_vertical"
+                                    android:text="@string/desc_Informacion"
+                                    android:textColor="@color/black" />
+
+                                <Button
+                                    android:id="@+id/btnInfo"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:backgroundTint="#F4A774"
+                                    android:gravity="center_horizontal|center_vertical"
+                                    android:rotation="29"
+                                    android:text="@string/Informacion"
+                                    android:textColor="@color/white"
+                                    tools:text="@string/Informacion" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
