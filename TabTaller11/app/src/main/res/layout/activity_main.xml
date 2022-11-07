@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabTalleres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        app:tabTextColor="@color/white">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabTaller9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Taller 9"
+            android:icon="@drawable/taller9_icon"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabTaller10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Taller 10"
+            android:icon="@drawable/taller10_icon"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabTaller11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Taller 11"
+            android:icon="@drawable/taller11_icon"/>
+    </com.google.android.material.tabs.TabLayout>
+    
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.viewpager.widget.ViewPager>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
